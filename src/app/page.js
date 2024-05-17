@@ -13,16 +13,16 @@ export default function Home() {
         <Hero />
 
        
-          <div className="mt-[100px] sm:mt-[200px]">
+          <div className="mt-[100px] sm:mt-[200px] p-5">
             <Destinations />
           </div>
           <div className="mt-[100px] sm:mt-[200px]">
             <Banner/> 
           </div>
-          <div className="mt-[100px] sm:mt-[200px]">
+          <div className="mt-[100px] sm:mt-[200px] p-5">
             <Plan/> 
           </div>
-          <div className="mt-[100px] sm:mt-[200px] max-w-[1200px] m-auto">
+          <div className="mt-[100px] sm:mt-[200px] max-w-[1200px] m-auto ">
             <h1 className="text-md font-semibold mb-14 text-center sm:text-left">Organized Trips</h1>
 
             <div className="flex items-center sm:items-start justify-between gap-10 flex-col sm:flex-row">
