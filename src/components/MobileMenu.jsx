@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { elastic as Menu } from 'react-burger-menu'
+import ThemeSwitch from './ThemeSwitch'
 
 const MobileMenu = () => {
 
@@ -73,7 +74,7 @@ const MobileMenu = () => {
         <Link href="#plan" onClick={handleLinkClick}>Activities</Link>
         <Link href="#trips" onClick={handleLinkClick}>Organized Trips</Link>
         <Link href="#discover" onClick={handleLinkClick}>Discover</Link>
-      </Menu>
+       </Menu>
     
    )
 }

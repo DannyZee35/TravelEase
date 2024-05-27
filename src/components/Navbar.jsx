@@ -21,8 +21,12 @@ const Navbar = () => {
   return (
     <>
       {isMobile ? (
-        <div className="bg-black bg-opacity-60  h-24 w-full fixed z-50 top-0">
+        <div className="bg-black bg-opacity-60 flex items-center justify-between h-24 w-full fixed z-50 top-0">
           <MobileMenu />
+          <div className="me-10">
+          <ThemeSwitch/>
+
+          </div>
         </div>
       ) : (
         <div
